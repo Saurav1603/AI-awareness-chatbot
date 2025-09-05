@@ -1,0 +1,63 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_symptoms_dengue
+  - ask_symptoms_malaria
+  - ask_prevention_malaria
+  - ask_symptoms_tb
+  - ask_treatment_tb
+  - ask_symptoms_diarrhoea
+  - ask_prevention_diarrhoea
+  - ask_hygiene_tips
+  - ask_nutrition_tips
+  - ask_symptoms_common_cold
+  - ask_first_aid_burns
+  - ask_first_aid_cuts
+  - ask_info_diabetes
+  - ask_info_hypertension
+  - ask_child_vaccination_info
+  - ask_mental_health_support
+
+responses:
+  utter_greet:
+  - text: "Hello! I am your Arogya AI assistant. How can I help you with your health questions today?"
+  utter_goodbye:
+  - text: "You're welcome! Stay safe and healthy. Goodbye."
+  utter_symptoms_dengue:
+  - text: "Common symptoms of Dengue include high fever, severe headache, pain behind the eyes, and joint and muscle pain. Please consult a doctor if you have these symptoms."
+  utter_symptoms_malaria:
+  - text: "Symptoms of Malaria typically include fever, chills, headache, and nausea, often in cycles. It is important to get a blood test if you suspect malaria."
+  utter_prevention_malaria:
+  - text: "To prevent malaria: Use mosquito nets, use repellents, wear long-sleeved clothes, and prevent water from stagnating near your home."
+  utter_symptoms_tb:
+  - text: "Key symptoms of Tuberculosis (TB) are a persistent cough for over two weeks (sometimes with blood), fever, night sweats, and weight loss. Please see a doctor immediately."
+  utter_treatment_tb:
+  - text: "Yes, TB is completely curable with a prescribed course of antibiotics, which is available for free at government health centers. It is crucial to complete the full course of medicine."
+  utter_symptoms_diarrhoea:
+  - text: "Diarrhoea is characterized by loose, watery stools multiple times a day. It's very important to stay hydrated by drinking lots of fluids, like ORS (Oral Rehydration Solution)."
+  utter_prevention_diarrhoea:
+  - text: "To prevent diarrhoea: Always drink clean water, wash your hands with soap before eating, and eat freshly cooked, hot food."
+  utter_hygiene_tips:
+  - text: "For good personal hygiene, you should bathe daily, wash your hands frequently with soap, brush your teeth twice a day, and keep your nails clean."
+  utter_nutrition_tips:
+  - text: "A healthy diet includes a balance of roti/rice, dal, green vegetables, seasonal fruits, and dairy products like milk or curd. Drink plenty of clean water."
+  utter_symptoms_common_cold:
+  - text: "A common cold usually involves a runny nose, sneezing, sore throat, and cough. Get plenty of rest and drink warm fluids like soup or tea. See a doctor if you have a high fever."
+  utter_first_aid_burns:
+  - text: "For a minor burn, immediately run cool (not cold) water over the area for 10-15 minutes. Do NOT apply ice, butter, or toothpaste. Cover loosely with a clean cloth. For major burns, go to a hospital immediately."
+  utter_first_aid_cuts:
+  - text: "For a minor cut, first apply pressure with a clean cloth to stop bleeding. Then, gently clean the wound with soap and clean water. Apply an antiseptic and cover with a bandage. See a doctor if the cut is deep or doesn't stop bleeding."
+  utter_info_diabetes:
+  - text: "Diabetes (often called 'sugar') is a condition where the body cannot control its blood sugar levels. Management includes a healthy diet, regular exercise, and medication as prescribed by a doctor. Regular check-ups are very important."
+  utter_info_hypertension:
+  - text: "Hypertension, or High Blood Pressure (BP), means the pressure in your blood vessels is consistently too high. It can be managed by reducing salt intake, regular exercise, maintaining a healthy weight, and taking prescribed medication. Please consult a doctor."
+  utter_child_vaccination_info:
+  - text: "Vaccinations (tika) are very important as they protect children from serious and life-threatening diseases. The Government of India provides these vaccines for free at health centers. Please follow the vaccination card schedule for your child."
+  utter_mental_health_support:
+  - text: "It's okay to feel sad or stressed sometimes. Talking about your feelings with someone you trust, like a friend, family member, or a healthcare professional, can be very helpful. Please know that you are not alone and help is available."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

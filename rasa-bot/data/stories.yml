@@ -1,0 +1,59 @@
+version: "3.1"
+
+stories:
+- story: dengue path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_symptoms_dengue
+  - action: utter_symptoms_dengue
+
+- story: malaria path
+  steps:
+  - intent: ask_symptoms_malaria
+  - action: utter_symptoms_malaria
+  - intent: ask_prevention_malaria
+  - action: utter_prevention_malaria
+
+- story: tuberculosis path
+  steps:
+  - intent: ask_symptoms_tb
+  - action: utter_symptoms_tb
+  - intent: ask_treatment_tb
+  - action: utter_treatment_tb
+
+- story: general wellness path
+  steps:
+  - intent: ask_nutrition_tips
+  - action: utter_nutrition_tips
+  - intent: ask_hygiene_tips
+  - action: utter_hygiene_tips
+
+- story: first aid path for burns
+  steps:
+  - intent: ask_first_aid_burns
+  - action: utter_first_aid_burns
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: first aid path for cuts
+  steps:
+  - intent: ask_first_aid_cuts
+  - action: utter_first_aid_cuts
+
+- story: lifestyle diseases path
+  steps:
+  - intent: ask_info_diabetes
+  - action: utter_info_diabetes
+  - intent: ask_info_hypertension
+  - action: utter_info_hypertension
+
+- story: child health path
+  steps:
+  - intent: ask_child_vaccination_info
+  - action: utter_child_vaccination_info
+
+- story: mental health path
+  steps:
+  - intent: ask_mental_health_support
+  - action: utter_mental_health_support

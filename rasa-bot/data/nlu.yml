@@ -1,0 +1,115 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - namaste
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - thank you bye
+
+- intent: ask_symptoms_dengue
+  examples: |
+    - what are the symptoms of dengue?
+    - tell me the symptoms of dengue
+    - signs of dengue
+
+- intent: ask_symptoms_malaria
+  examples: |
+    - what are the symptoms of malaria
+    - how to know if i have malaria
+    - signs of malaria
+
+- intent: ask_prevention_malaria
+  examples: |
+    - how can I prevent malaria?
+    - how to avoid getting malaria
+    - malaria prevention tips
+
+- intent: ask_symptoms_tb
+  examples: |
+    - what are tb symptoms
+    - signs of tuberculosis
+    - tb symptoms
+
+- intent: ask_treatment_tb
+  examples: |
+    - how is tb treated?
+    - what is the cure for tb
+    - can tuberculosis be cured
+
+- intent: ask_symptoms_diarrhoea
+  examples: |
+    - what to do for loose motion
+    - symptoms of diarrhoea
+    - signs of a stomach infection
+
+- intent: ask_prevention_diarrhoea
+  examples: |
+    - how to prevent diarrhoea
+    - how to avoid stomach infection
+    - diarrhoea prevention
+
+- intent: ask_hygiene_tips
+  examples: |
+    - give me some hygiene tips
+    - how to maintain good hygiene
+    - tips for staying clean
+
+- intent: ask_nutrition_tips
+  examples: |
+    - what is a healthy diet?
+    - give me nutrition advice
+    - what food should I eat to be healthy
+    - healthy eating tips
+
+- intent: ask_symptoms_common_cold
+  examples: |
+    - what are the symptoms of a cold?
+    - I have a cold, what should I do?
+    - signs of a common cold
+    - cold and cough symptoms
+
+- intent: ask_first_aid_burns
+  examples: |
+    - what is the first aid for burns?
+    - what to do for a burn
+    - my hand got burned
+    - jalne par kya karein
+
+- intent: ask_first_aid_cuts
+  examples: |
+    - how to treat a small cut?
+    - first aid for a bleeding cut
+    - what to do if I get a cut
+
+- intent: ask_info_diabetes
+  examples: |
+    - tell me about diabetes
+    - what is sugar disease?
+    - info on diabetes
+
+- intent: ask_info_hypertension
+  examples: |
+    - what is high blood pressure?
+    - tell me about hypertension
+    - what is high BP
+
+- intent: ask_child_vaccination_info
+  examples: |
+    - why are vaccines important for children?
+    - tell me about child vaccination
+    - why do kids need tika
+
+- intent: ask_mental_health_support
+  examples: |
+    - i am feeling very sad
+    - i am feeling stressed
+    - how to deal with anxiety
+    - i feel lonely

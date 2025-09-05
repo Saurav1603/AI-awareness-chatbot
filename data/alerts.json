@@ -1,0 +1,26 @@
+[
+    {
+      "district": "Pune",
+      "disease": "Dengue",
+      "level": "High",
+      "message": "Increased cases reported. Eliminate stagnant water."
+    },
+    {
+      "district": "Mumbai",
+      "disease": "Malaria",
+      "level": "Moderate",
+      "message": "Use mosquito nets and repellents."
+    },
+    {
+      "district": "Nagpur",
+      "disease": "Tuberculosis (TB)",
+      "level": "Low",
+      "message": "Awareness campaign ongoing. Get tested if you have a persistent cough."
+    },
+    {
+      "district": "Nashik",
+      "disease": "Diarrhoea",
+      "level": "High",
+      "message": "Ensure access to clean drinking water. Practice hand hygiene."
+    }
+  ]

@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js dependencies
+node_modules/
+build/
+.pnp
+.pnp.js
+
+# Rasa generated files
+models/
+.rasa/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
